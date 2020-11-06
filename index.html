@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>UNIARP Tecnology and Cheers</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="img/logo.svg" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body onload="start()">
+    <header>
+      
+      <div class="header">
+
+        <div class="logo">
+          <h1>UNIARP</h1>
+          <img src="img/logo.svg">
+        </div>
+  
+        <div class="content-nav" onclick="openNav()">
+          <div class="line line-top"></div>
+          <div class="line line-center"></div>
+          <div class="line line-bottom"></div>
+        </div>
+      </div>
+
+      
+      <div class="lateral-menu">
+        <ul>
+          <li>
+            <a>
+            <div class="sub-menu" onclick="liberaSubMenuExame()">
+              <span>Agendamentos</span>
+              <img src="img/icons/arrow-down.png" class="exames">
+            </div>
+          </a>
+          
+            <ul class="sub-exame">
+              <li><a href="">Consultas</a></li>
+              <li><a href="">Dentistas</a></li>
+              <li><a href="">Receituários</a></li>
+              <li><a href="">Curativos</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a>
+            <div class="sub-menu" onclick="liberaSubMenuPrevencao()">
+              <span>Prevenção</span>
+              <img src="img/icons/arrow-down.png" class="prevencao">
+            </div>
+          </a>
+
+            <ul class="sub-prevencao">
+              <li><a href="">Saúde da Mulher</a></li>
+              <li><a href="">Saúde do Idoso</a></li>
+              <li><a href="">Gestantes</a></li>
+              <li><a href="">Vacinas</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a>
+            <div class="sub-menu" onclick="liberaSubMenuNasf()">
+              <span>NASF</span>
+              <img src="img/icons/arrow-down.png" class="nasf">
+            </div>
+          </a>
+
+          <ul class="sub-nasf">
+            <li><a href="">Nutriciolista</a></li>
+            <li><a href="">Assistente Social</a></li>
+            <li><a href="">Psicólogo</a></li>
+          </ul>
+        </li>
+          <li><a href="">Area do Paciente</a></li>
+          <li><a href="">Dúvidas Frequentes</a></li>
+        </ul>
+      </div>
+
+    </header>
+  </body>
+  <script src="js/start.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/menu.js"></script>
+</html>

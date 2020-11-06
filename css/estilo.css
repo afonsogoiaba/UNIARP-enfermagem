@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 0.9rem;
+}
+
+html,
+body{
+  height: 100%;
+}
+
+:root{
+  --color-branco: rgba(255,255,255,0.9);
+  --laranja: #fd9a28;
+}
+
+.header{
+  padding: 0.8rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--laranja);
+}
+
+.logo h1{
+  font-size: 0px;
+}
+
+.logo img{
+  width: 60px;
+  
+}
+
+.content-nav{
+  cursor: pointer;
+  position: absolute;
+  top: 18px;
+  left: 15px;
+}
+
+.line{
+  background: var(--color-branco);
+  width: 30px;
+  height: 4px;
+  margin-bottom: 5px;
+}
+
+.line-top{
+  position: relative;
+  top: 0;
+}
+
+.line-bottom{
+  position: relative;
+  bottom: 0;
+}
+
+body{
+  position: relative;
+}
+
+body .lateral-menu{
+  position: absolute;
+  top: 55px;
+  width: 50%;
+  bottom: 0;
+  left: -200px;
+  background: var(--laranja);
+}
+
+ul{
+  list-style: none;
+}
+
+.lateral-menu a{
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  outline: unset;
+}
+
+.lateral-menu ul li a{
+  display: block;
+  padding: 0.3rem;
+  width: 100%;
+}
+
+.lateral-menu .sub-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem;
+}
+
+.lateral-menu .sub-menu img{
+  width: 12px;
+  height: 12px;
+  margin-right: 15px;
+}
+
+.lateral-menu ul ul{
+  margin-left: 20px;
+} 
