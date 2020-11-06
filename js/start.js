@@ -22,7 +22,7 @@ function start(){
   lineBottom.style.transform = 'rotate(0deg)';
   lineBottom.style.transition = '400ms';
 
-  lateralMenu.style.left = '-200px';
+  lateralMenu.style.left = '-400px';
   lateralMenu.style.transition = '400ms';
 
   menuExame.style.transform = 'rotate(0deg)';
