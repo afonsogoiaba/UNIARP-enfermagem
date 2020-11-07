@@ -1,0 +1,101 @@
+@media screen and (min-width: 800px){
+  
+  body .lateral-menu{
+    position: relative;
+    left: 0!important;
+    top: 0;
+  }
+
+  .header{
+    display: block;
+    padding: 0.8rem;
+  }
+
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--laranja);
+    width: 100%;
+  }
+
+  .logo img{
+    width: 80px;
+  }
+
+  .content-nav{
+    display: none;
+  }
+
+  .lateral-menu ul {
+    display: flex;
+  }
+
+  .lateral-menu ul .context-menu{
+    position: relative;
+  }
+
+  .lateral-menu ul ul{
+    display: none;
+    position: absolute;
+    top: 40px;
+    background: var(--laranja);
+    margin-left: 0;
+    width: 200px;
+  }
+
+  #agenda:hover .sub-exame{
+    display: block !important;
+  }
+
+  #preven:hover .sub-prevencao{
+    display: block !important;
+  }
+
+  #nasf:hover .sub-nasf{
+    display: block !important;
+  }
+
+  .lateral-menu ul ul li{
+    padding: 0;
+    transition: 0.5s;
+    padding: 0.3rem;
+  }
+
+  .lateral-menu ul ul li:hover{
+    background: #e07e0f;
+    transition: 0.5s;
+  }
+
+  .home p,
+  .home b{
+    font-size: 2.8rem;
+  }
+
+  .rotulo-section{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .banner{
+    width: 80%;
+    left: 60px;
+    top: 280px;
+  }
+
+  .artigos{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .content-artigos{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .artigo{
+    width: 280px;
+    margin-left: 10px;
+  }
+}

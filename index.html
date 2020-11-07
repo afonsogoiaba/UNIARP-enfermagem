@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <title>UNIARP Tecnology and Cheers</title>
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/mediascreen.css">
     <link rel="shortcut icon" href="img/logo.svg" />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,9 +26,9 @@
       </div>
 
       
-      <div class="lateral-menu">
+      <nav class="lateral-menu">
         <ul>
-          <li>
+          <li class="context-menu" id="agenda">
             <a>
             <div class="sub-menu" onclick="liberaSubMenuExame()">
               <span>Agendamentos</span>
@@ -43,42 +44,102 @@
             </ul>
           </li>
 
-          <li>
+          <li class="context-menu" id="preven">
             <a>
             <div class="sub-menu" onclick="liberaSubMenuPrevencao()">
               <span>Prevenção</span>
               <img src="img/icons/arrow-down.png" class="prevencao">
             </div>
-          </a>
+            </a>
 
             <ul class="sub-prevencao">
               <li><a href="">Saúde da Mulher</a></li>
               <li><a href="">Saúde do Idoso</a></li>
+              <li><a href="">Saúde da criança e do Adolescente</a></li>
               <li><a href="">Gestantes</a></li>
               <li><a href="">Vacinas</a></li>
             </ul>
           </li>
 
-          <li>
+          <li class="context-menu" id="nasf">
             <a>
             <div class="sub-menu" onclick="liberaSubMenuNasf()">
               <span>NASF</span>
               <img src="img/icons/arrow-down.png" class="nasf">
             </div>
-          </a>
+           </a>
 
-          <ul class="sub-nasf">
-            <li><a href="">Nutriciolista</a></li>
-            <li><a href="">Assistente Social</a></li>
-            <li><a href="">Psicólogo</a></li>
-          </ul>
-        </li>
+            <ul class="sub-nasf">
+              <li><a href="">Nutricionista</a></li>
+              <li><a href="">Assistente Social</a></li>
+              <li><a href="">Psicólogo</a></li>
+            </ul>
+          </li>
           <li><a href="">Area do Paciente</a></li>
           <li><a href="">Dúvidas Frequentes</a></li>
         </ul>
-      </div>
-
+      </nav>
     </header>
+
+    <main>
+
+      <section class="home">
+        <div class="banner">
+          <p><b>Saúde e Tecnologia, </b></p>
+          <p>apenas o melhor pra você!</p>
+        </div>
+      </section>
+
+      <section class="artigos">
+
+        <div class="rotulo-section">
+          <img src="img/icons/files.png">
+          <span>Artigos</span>
+        </div>
+
+        <div class="content-artigos">
+          <div class="artigo">
+            <img src="img/artigos/set amarelo.png">
+            <div class="content-artigo">
+              <span><b>Setembro amarelo</b></span>
+              <p>O principal objetivo da campanha Setembro Amarelo é a conscientização sobre a prevenção
+                do suicídio. Para o setembro Amarelo, a melhor forma de se evitar um suicídio é através de
+                diálogos e discussões que abordem o problema.</p>
+            </div>
+          </div>
+
+          <div class="artigo">
+            <img src="img/artigos/out rosa.png">
+            <div class="content-artigo">
+              <span><b>Outubro Rosa</b></span>
+              <p>Outubro Rosa é uma campanha anual realizada mundialmente em outubro, com a intenção de
+                alertar a sociedade sobre o diagnóstico precoce do câncer de mama. A mobilização visa também à
+                disseminação de dados preventivos e ressalta a importância...</p>
+            </div>
+          </div>
+
+          <div class="artigo">
+            <img src="img/artigos/covid.png">
+            <div class="content-artigo">
+              <span><b>COVID-19</b></span>
+              <p>Recentemente, em dezembro de 2019, houve a transmissão de um novo coronavírus (SARS-
+                CoV-2), o qual foi identificado em Wuhan na China e causou a COVID-19, sendo em seguida
+                disseminada e transmitida pessoa a pessoa...</p>
+            </div>
+          </div>
+
+          <div class="artigo">
+            <img src="img/artigos/nov azul.png">
+            <div class="content-artigo">
+              <span><b>Novembro Azul</b></span>
+              <p>O câncer de próstata, tipo mais comum entre os homens, é a causa de morte de 28,6% da população
+                masculina que desenvolve neoplasias malignas. No Brasil, um homem morre a cada 38 minutos devido ao
+                câncer de próstata, segundo os dados mais recentes ...</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
   <script src="js/start.js"></script>
   <script src="js/navigation.js"></script>
