@@ -1,0 +1,173 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>UNIARP Tecnology and Cheers</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/mediascreen.css">
+    <link rel="shortcut icon" href="img/logo.svg" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body onload="start()">
+    <header>
+      
+      <div class="header">
+
+        <a class="logo" href="index.html">
+          <h1>UNIARP</h1>
+          <img src="img/logo.svg">
+        </a>
+  
+        <div class="content-nav" onclick="openNav()">
+          <div class="line line-top"></div>
+          <div class="line line-center"></div>
+          <div class="line line-bottom"></div>
+        </div>
+      </div>
+
+      
+      <nav class="lateral-menu">
+        <ul>
+          <li class="context-menu" id="agenda">
+            <a>
+            <div class="sub-menu" onclick="liberaSubMenuExame()">
+              <span>Agendamentos</span>
+              <img src="img/icons/arrow-down.png" class="exames">
+            </div>
+          </a>
+          
+            <ul class="sub-exame">
+              <li><a href="">Consultas</a></li>
+              <li><a href="">Dentistas</a></li>
+              <li><a href="">Receituários</a></li>
+              <li><a href="">Curativos</a></li>
+            </ul>
+          </li>
+
+          <li class="context-menu" id="preven">
+            <a>
+            <div class="sub-menu" onclick="liberaSubMenuPrevencao()">
+              <span>Prevenção</span>
+              <img src="img/icons/arrow-down.png" class="prevencao">
+            </div>
+            </a>
+
+            <ul class="sub-prevencao">
+              <li><a href="">Saúde da Mulher</a></li>
+              <li><a href="">Saúde do Idoso</a></li>
+              <li><a href="">Saúde da criança e do Adolescente</a></li>
+              <li><a href="">Gestantes</a></li>
+              <li><a href="">Vacinas</a></li>
+            </ul>
+          </li>
+
+          <li class="context-menu" id="nasf">
+            <a>
+            <div class="sub-menu" onclick="liberaSubMenuNasf()">
+              <span>NASF</span>
+              <img src="img/icons/arrow-down.png" class="nasf">
+            </div>
+           </a>
+
+            <ul class="sub-nasf">
+              <li><a href="">Nutricionista</a></li>
+              <li><a href="">Assistente Social</a></li>
+              <li><a href="">Psicólogo</a></li>
+            </ul>
+          </li>
+          <li><a href="">Area do Paciente</a></li>
+          <li><a href="">Dúvidas Frequentes</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="maxwidth-artigo">
+
+      <section class="expanded-artigo">
+
+        <div class="container-banner">
+          <img src="img/banner/sAmarelo.png">
+        </div>
+
+        <div class="content-title-artigo">
+          <h2>Setembro Amarelo</h2>
+          <span>#EscolhaViver</span>
+        </div>
+
+        <div class="content-sec-artigo">
+
+          <h3>Objetivos do Setembro amarelo</h3>
+          <p>O principal objetivo da campanha Setembro Amarelo é a conscientização sobre a prevenção
+            do suicídio. Para o setembro Amarelo, a melhor forma de se evitar um suicídio é através de
+            diálogos e discussões que abordem o problema.</p>
+          <p>Suicídio é o ato de tirar a própria vida intencionalmente. Também fazem parte deste
+            comportamento os <u>pensamentos suicidas</u>, planos e tentativas de morte, assim como os
+            transtornos relacionados ao problema.</p>
+
+          <p>Assim, fazendo-os entender que isso também é uma questão de saúde pública. Infelizmente
+            para muitos, o suicídio ainda não é visto como um problema de saúde pública, mas sim uma
+            espécie de fraqueza de conduta ou personalidade.</p>
+        </div>
+
+        <div class="content-sec-artigo">
+          
+          <h3>Como identificar alguém que precisa de ajuda e corre risco de suicídio?</h3>
+          <p>Pessoas sob risco de suicídio podem:</p>
+          <ul>
+            <li>
+              apresentar comportamento retraído, dificuldades para se relacionar com família e
+              amigos;
+            </li>
+
+            <li>
+              ter casos de doenças psiquiátricas como: transtornos mentais, transtornos de humor
+              (depressão, <u>bipolaridade</u>), transtornos de comportamento pelo uso de substâncias
+              psicoativas (álcool e drogas), transtornos de personalidade, esquizofrenia e
+              <u>ansiedade generalizada</u>;
+            </li>
+
+            <li>apresentar irritabilidade, pessimismo ou apatia;</li>
+            <li>sofrer <u>mudanças nos hábitos</u> alimentares ou de sono.</li>
+            <li>
+              odiar-se, apresentar sentimento de culpa, sentir-se sem valor ou com <u>vergonha</u> por
+              algo;
+            </li>
+
+            <li>
+              ter um desejo súbito de concluir afazeres pessoais, organizar documentos, escrever
+              um testamento;
+            </li>
+
+            <li>apresentar sentimentos de <u>solidão</u>, impotência e desesperança;</li>
+            <li>escrever cartas de despedida;</li>
+            <li>falar repentinamente sobre <u>morte</u> ou suicídio;</li>
+            <li>apresentar um convívio social conturbado;</li>
+            <li>
+              ter doenças físicas crônicas, limitantes e dolorosas, doenças orgânicas incapacitantes
+              como dores, lesões, epilepsia, câncer ou AIDS;
+            </li>
+
+            <li>apresentar personalidade impulsiva, agressiva ou humor instável.</li>
+          </ul>
+        </div>
+
+        <div class="content-sec-artigo">
+
+          <h3>Quais os sintomas de depressão que levam ao suicídio?</h3>
+          <p>Se você está deprimido ou angustiado, sem vontade de viver, é fundamental buscar ajuda o
+            mais rápido possível. Existem alternativas ao suicídio e buscar o auxílio adequado é o
+            primeiro passo. Os acompanhamentos médicos e psicológicos são as maneiras mais eficazes
+            de tratamento.</p>
+
+          <p>As pessoas que pensam em suicídio normalmente estão tentando fugir de uma situação da
+            vida que lhes parece insuportável, buscando o alívio!!</p>
+        </div>
+
+      </section>
+    </main>
+    
+  <script src="js/start.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/menu.js"></script>
+  </body>
+</html>

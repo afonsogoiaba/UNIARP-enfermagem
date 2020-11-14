@@ -98,4 +98,27 @@
     width: 280px;
     margin-left: 10px;
   }
+
+  .maxwidth-artigo{
+    width: 940px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .content-title-artigo h2{
+    font-size: 1.7rem;
+  }
+
+  .content-title-artigo span{
+    font-size: 1.3rem;
+  }
+
+  .content-sec-artigo p,
+  .content-sec-artigo h3{
+    width: 100%;
+  }
+
+  .content-sec-artigo ul{
+    width: 90 %;
+  }
 }
