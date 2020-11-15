@@ -119,6 +119,55 @@
   }
 
   .content-sec-artigo ul{
-    width: 90 %;
+    width: 90%;
+  }
+  
+  .content-user{
+    padding: 2rem;
+  }
+
+  .content-user img{
+    width: 210px;
+    height: 210px;
+  }
+  
+  .content-info-histo{
+    width: 70%;
+  }
+  
+  .container-historico ul {
+    margin-top: 40px;
+    list-style: none;
+  }
+  
+  .container-historico ul li{
+    background: rgb(252, 191, 59);
+    width: 80%;
+    border-radius: 10px;
+  }
+  
+  .content-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .content-link div{
+    display: flex;
+    align-items: center;
+  }
+  
+  .content-link img,
+  .content-link div img{
+    width: 15px;
+  }
+  
+  .content-link div img{
+    margin-right: 10px;
+  }
+  
+  .content-link span{
+    
+    font-weight: 500;
   }
 }

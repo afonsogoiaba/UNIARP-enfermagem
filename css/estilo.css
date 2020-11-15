@@ -253,3 +253,98 @@ a{
 .content-sec-artigo ul li{
   margin-bottom: 8px;
 }
+
+.construct{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.construct img{
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.construct span{
+  font-style: italic;
+  font-size: 1rem;
+  width: 95%;
+  text-align:center;
+  margin: 0 auto;
+}
+
+.content-user{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.content-user img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.content-user span{
+
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.content-info-histo{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 0.5rem;
+  background: rgb(235, 235, 235);
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.32);
+}
+
+.content-info-histo p{
+  text-align: justify;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.container-historico ul {
+  margin-top: 40px;
+  list-style: none;
+}
+
+.container-historico ul li{
+  background: rgb(252, 191, 59);
+  width: 90%;
+  margin: 0 auto;
+  padding: 0.5rem;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.content-link{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-link div{
+  display: flex;
+  align-items: center;
+}
+
+.content-link img,
+.content-link div img{
+  width: 20px;
+}
+
+.content-link div img{
+  margin-right: 10px;
+}
+
+.content-link span{
+  font-weight: bold;
+}

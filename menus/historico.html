@@ -1,0 +1,143 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>UNIARP Tecnology and Cheers</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/mediascreen.css">
+    <link rel="shortcut icon" href="../img/logo.svg" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body onload="start()">
+    <header>
+      
+      <div class="header">
+
+        <a class="logo" href="../index.html">
+          <h1>UNIARP</h1>
+          <img src="../img/logo.svg">
+        </a>
+  
+        <div class="content-nav" onclick="openNav()">
+          <div class="line line-top"></div>
+          <div class="line line-center"></div>
+          <div class="line line-bottom"></div>
+        </div>
+      </div>
+
+      
+      <nav class="lateral-menu">
+        <ul>
+          <li class="context-menu" id="agenda">
+            <a>
+            <div class="sub-menu" onclick="liberaSubMenuExame()">
+              <span>Agendamentos</span>
+              <img src="../img/icons/arrow-down.png" class="exames">
+            </div>
+          </a>
+          
+            <ul class="sub-exame">
+              <li><a href="img/downloads/consulta.jpg" download>Consultas</a></li>
+              <li><a href="img/downloads/consulta dentista.jpg" download>Dentistas</a></li>
+              <li><a href="img/downloads/solicita receituario.jpg" download>Receituários</a></li>
+              <li><a href="img/downloads/curativos.jpg" download>Curativos</a></li>
+            </ul>
+          </li>
+
+          <li class="context-menu" id="preven">
+            <a>
+            <div class="sub-menu" onclick="liberaSubMenuPrevencao()">
+              <span>Prevenção</span>
+              <img src="../img/icons/arrow-down.png" class="prevencao">
+            </div>
+            </a>
+
+            <ul class="sub-prevencao">
+              <li><a href="">Saúde da Mulher</a></li>
+              <li><a href="">Saúde do Idoso</a></li>
+              <li><a href="">Saúde da criança e do Adolescente</a></li>
+              <li><a href="">Gestantes</a></li>
+              <li><a href="">Vacinas</a></li>
+            </ul>
+          </li>
+
+          <li class="context-menu" id="nasf">
+            <a>
+            <div class="sub-menu" onclick="liberaSubMenuNasf()">
+              <span>NASF</span>
+              <img src="../img/icons/arrow-down.png" class="nasf">
+            </div>
+           </a>
+
+            <ul class="sub-nasf">
+              <li><a href="">Nutricionista</a></li>
+              <li><a href="">Assistente Social</a></li>
+              <li><a href="">Psicólogo</a></li>
+            </ul>
+          </li>
+          <li><a href="historico.html">Histórico</a></li>
+          <li><a href="../perguntas.html">Dúvidas Frequentes</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="maxwidth-artigo">
+      <div class="content-user">
+        <img src="../img/paciente.jpeg">
+        <span>Afonso Barbosa de Souza</span>
+      </div>
+
+      <div class="container-historico">
+
+        <div class="content-info-histo">
+
+          <p>Bem vindo ao seu histórico! Aqui você tem acesso aos seus prontuários ordenados do mais recente para o mais antigo.
+            Caso precise consultar algum, basta clicar em cima de qualquer um deles para que uma imagem do prontuário seja aberta.
+            Caso tenha alguma dúvida, acesse nossa pagina de <a href="../perguntas.html">Perguntas Frequentes</a> ou contate o suporte.
+          </p>
+        </div>
+        <ul>
+          <li><a href="../img/downloads/prontuario_paciente.jpg" download="prontuario paciente">
+            <div class="content-link">
+              <div>
+                <img src="../img/icons/document.png">
+                <span>Prontuário do paciente - 14/11/2020</span>
+              </div>
+
+              <img src="../img/icons/download.png">
+            </div>
+          </a></li>
+
+          <li>
+            <a href="../img/downloads/prontuario_dentista.jpg" download="prontuario dentista">
+              <div class="content-link">
+                <div>
+                  <img src="../img/icons/document.png">
+                  <span>Prontuário Dentista - 10/09/2020</span>
+                </div>
+                
+                <img src="../img/icons/download.png" alt="">
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="../img/downloads/receituario.jpg" download="receituario">
+              <div class="content-link">
+                <div>
+                  <img src="../img/icons/document.png">
+                  <span>Receituário - 07/06/2020</span>
+                </div>
+                
+                <img src="../img/icons/download.png" alt="">
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </main>
+  <script src="../js/start.js"></script>
+  <script src="../js/navigation.js"></script>
+  <script src="../js/menu.js"></script>
+  </body>
+</html>
