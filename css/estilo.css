@@ -115,7 +115,7 @@ body .lateral-menu{
 
 .home{
   height: 90vh;
-  background: url('../img/home.jpg')no-repeat center center fixed;
+  background: url('../img/home.jpeg')no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -124,11 +124,12 @@ body .lateral-menu{
 
 .home p,
 .home b{
+  color: white;
   font-size: 1.8rem;
   font-weight: 900;
   width: 40%;
   position: relative;
-  text-shadow: 1px 1px 2px white;
+  text-shadow: 1px 1px 2px black;
 }
 
 .banner{
